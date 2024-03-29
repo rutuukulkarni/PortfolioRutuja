@@ -45,15 +45,15 @@ export const ContactUs = () => {
             show: true,
           });
         },
-        (error) => {
-          console.log(error.text);
-          setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
-            show: true,
-          });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
-        }
+        // // (error) => {
+        // //   console.log(error.text);
+        // //   setFormdata({
+        // //     alertmessage: `Faild to send!,${error.text}`,
+        // //     variant: "danger",
+        // //     show: true,
+        // //   });
+        //   document.getElementsByClassName("co_alert")[0].scrollIntoView();
+        // }
       );
   };
 
